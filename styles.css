@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #721c24;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.no-button {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.yes-button {
+  background-color: #d4edda;
+  color: #155724;
+}
+.yes-button.large {
+  width: 200px;
+  height: 60px;
+}
+.no-button.shrink{
+  width: 130px; /* Keep the NO button fixed */
+  height: 70px;
+  font-size: 13px;
+}
+.no-button {
+  width: 100px; /* Keep the NO button fixed */
+  height: 70px; /* Keep the NO button fixed */
+
+}
+.hidden {
+  display: none;
+}
+.img-2{
+  display: none;
+}
+
+
