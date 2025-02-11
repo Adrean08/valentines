@@ -59,5 +59,19 @@ button {
 .img-2{
   display: none;
 }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .img-2{
+
+  }
+  .img-1{
+    width: 200px;
+    height: 200px;
+  }
+  
+}
 
 
